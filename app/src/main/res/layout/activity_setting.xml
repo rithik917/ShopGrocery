@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Setting">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_rect01"
+    android:padding="10dp"
+    >
+
+    <ImageButton
+        android:id="@+id/backButton"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/left_arrow"
+        android:src="@drawable/ic_back_white"
+        tools:src="@drawable/left_arrow"></ImageButton>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        > </TextView>
+
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchfm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:text="Push Notifications"> </androidx.appcompat.widget.SwitchCompat>
+    <TextView
+        android:id="@+id/textNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:layout_below="@id/switchfm"
+        android:text="notifications are disabled"
+        android:textColor="@color/colorGray01">
+    </TextView>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGray01"
+            > </View>
+
+    </RelativeLayout>
+</LinearLayout>

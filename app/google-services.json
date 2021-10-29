@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1042974615793",
+    "firebase_url": "https://shopgrocery-14dd7-default-rtdb.firebaseio.com",
+    "project_id": "shopgrocery-14dd7",
+    "storage_bucket": "shopgrocery-14dd7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042974615793:android:fb9c8693081ef5c9016150",
+        "android_client_info": {
+          "package_name": "com.example.shopgrocery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042974615793-5up3vdmdof9dap421bth4f45qt5mbaoi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shopgrocery",
+            "certificate_hash": "bebbeea8c264c2628124eb5b7d0168a99eccd8b6"
+          }
+        },
+        {
+          "client_id": "1042974615793-jpqpm4tinfaqio94kl3uhj730dc37fj1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWI3kz-Fm6bxD3sFmb5G0VsLtklWoJ2Q0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1042974615793-jpqpm4tinfaqio94kl3uhj730dc37fj1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
